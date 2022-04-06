@@ -164,6 +164,8 @@ button {
 }
 
 .hambur__img {
+  margin-top: -5px;
+  margin-left: 20px;
   cursor: pointer;
   filter: invert(59%) sepia(0%) saturate(7313%) hue-rotate(211deg) brightness(94%) contrast(105%);
 }
@@ -184,7 +186,7 @@ button {
   position: fixed;
   /* position: absolute; */
   width: 320px;
-  height: 610px;
+  height: 620px;
   background-color: #dfdfdf;
   border-radius: 4px;
   top: 45px;
@@ -197,7 +199,7 @@ button {
 }
 
 .ham__list {
-  width: 320px;
+  max-width: 380px;
   height: 150px;
   background-color: #6ac19d;
 }
@@ -268,4 +270,8 @@ button {
 
 .wrapper .button:hover {
   width: 180px;
+}
+
+.item__list {
+  margin-top: 20px;
 }
