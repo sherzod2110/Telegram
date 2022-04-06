@@ -1,7 +1,7 @@
 
 body {
   height: 100%;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .box__hight {
@@ -114,6 +114,8 @@ button {
   max-width: 337px;
 }  
 
+
+
 .hero__item {
   height: 100%;
   overflow: hidden;
@@ -122,8 +124,15 @@ button {
   padding-bottom: 56px;
 }  
 .hero_item2 {
-  
+  /* height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: fixed; */
 }
+
+
+
 
 .header__btn {
   transition: all 0.5s ease;
@@ -147,7 +156,7 @@ button {
   filter: invert(45%) sepia(100%) saturate(2285%) hue-rotate(163deg) brightness(97%) contrast(101%);
 }  
 .rtrt {
-  height: 30px;
+  height: 45px;
 }  
 
 .footer__higt {
