@@ -9,7 +9,7 @@ body {
   background-color: #ffffff;
 }  
 .header-inp {
-  width: 226px;
+  width: 210px;
   height: 29px;
   background: #F4F4F4;
   outline: none;
@@ -146,10 +146,48 @@ button {
 .rtrt {
   height: 30px;
 }  
-/* .hih {
-  height: 50px;
-} */
 
 .footer__higt {
   height: 110px;
+}
+
+
+.hambur__btn {
+  display: flex;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  padding-left: 10px;
+}
+
+.hambur__img {
+  cursor: pointer;
+  filter: invert(59%) sepia(0%) saturate(7313%) hue-rotate(211deg) brightness(94%) contrast(105%);
+}
+
+.checkbtn {
+
+}
+
+
+#check {
+  display: none;
+}
+
+.hed_bar {
+  
+}
+.bar {
+  position: fixed;
+  /* position: absolute; */
+  width: 320px;
+  height: 610px;
+  background-color: #373737;
+  top: 45px;
+  left: -100%;
+  text-align: center;
+  transition: all 0.8s;
+}
+#check:checked ~ .bar {
+  left: 0;
 }
