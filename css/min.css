@@ -265,7 +265,7 @@ button {
   line-height: 60px;
   margin-left: 15px;
   margin-top: -10px;
-  color: rgb(0, 0, 0);
+  color: #22B3FA;
 }
 
 .wrapper .button:hover {
@@ -274,4 +274,13 @@ button {
 
 .item__list {
   margin-top: 20px;
+}
+
+
+.clas{
+  cursor: pointer;
+}
+
+.clas:hover {
+  color: #6e6e6e;
 }
