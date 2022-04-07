@@ -134,7 +134,9 @@ button {
 }
 
 
-
+.hed_bar {
+  /* transition: all 0.5s ease; */
+}
 
 .header__btn {
   transition: all 0.5s ease;
